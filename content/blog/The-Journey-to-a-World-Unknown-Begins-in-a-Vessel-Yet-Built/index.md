@@ -1,7 +1,7 @@
 ---
 title: The Journey to a World Unknown Begins in a Vessel Yet Built
 date: "2018-07-11T22:12:03.284Z"
-description: "Smart Contracts — they’re the emerging technology almost everyone has heard of by now. Some might say they’re the answer to all the world’s woes. A fantastic shepherd to intersect the herds of business, law, finance, and software and take the world into a golden age of trustless autonomous computing, huzzah!"
+description: "Nascent technologies are hard. But probably not in the way you’d think. If you’re thinking, “these newfangled technologies are way too difficult to build because they’re complex and therefore inherently harder to understand”, then I’m calling you out specifically"
 ---
 
 
