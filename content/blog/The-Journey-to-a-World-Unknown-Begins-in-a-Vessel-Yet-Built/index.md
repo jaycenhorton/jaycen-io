@@ -7,7 +7,7 @@ description: "Nascent technologies are hard. But probably not in the way you’d
 
 If you haven’t read Part 1 yet, I recommend starting [there](https://medium.com/nori-carbon-removal/an-uncensored-look-at-smart-contracts-part-1-the-gentlest-of-introductions-b3c3b6b24eee) first.
 
-Getting started writing software is easy — just grab a popular [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment), write a few lines of [“Hello, World”](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program), hit that [compile](https://en.wiktionary.org/wiki/compile) button and that’s, that.
+Getting started writing software is easy — just grab a popular [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment), write a few lines of [“Hello, World”](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program), hit that [compile](https://en.wiktionary.org/wiki/compile) button and that’s that.
 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/Yw6u6YkTgQ4" frameborder="0" allowfullscreen></iframe></center>
 
