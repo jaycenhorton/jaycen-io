@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "jaycen-io",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "jaycen.io",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Jaycen Horton",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/jaycenhorton/jaycen-io/issues"
   },
   "dependencies": {
     "gatsby": "^2.24.41",
@@ -38,7 +38,7 @@
   "devDependencies": {
     "prettier": "2.0.5"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://jaycen.io",
   "keywords": [
     "gatsby"
   ],
@@ -46,7 +46,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git@github.com:jaycenhorton/jaycen-io.git"
   },
   "scripts": {
     "build": "gatsby build",
