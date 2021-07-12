@@ -3,7 +3,7 @@ module.exports = {
     title: `jaycen.io`,
     author: {
       name: `Jaycen Horton`,
-      summary: `who lives in AZ and is currently working on climate change problems at Nori`,
+      summary: `Currently reversing climate change at Nori`,
     },
     description: `A digital encapsulation of the life of one Jaycen Horton`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`, // todo
