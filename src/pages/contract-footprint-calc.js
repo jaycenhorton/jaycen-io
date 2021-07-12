@@ -41,7 +41,7 @@ const Calculator = ({ data, location }) => {
       ).json()
       setFootprint(res)
     } catch (e) {
-      console.log(e)
+      console.error(e)
       setFootprint(e.message)
     }
     setIsLoading(false)
@@ -91,7 +91,17 @@ const Calculator = ({ data, location }) => {
         {isLoading ? (
           "loading..."
         ) : footprint && typeof footprint === "object" ? (
-          <b>{`${footprint.data[0].kgco2 / 1000} Tonnes of CO2`}</b>
+          <>
+            <b>{`${footprint.data[0].kgco2 / 1000} Tonnes of CO2`}</b>
+            <br />
+            <Link
+              to={`https://nori.com/remove-carbon/checkout?tonnes=${
+                footprint.data[0].kgco2 / 1000
+              }`}
+            >
+              Click here to offset the entire footprint
+            </Link>
+          </>
         ) : (
           footprint
         )}
