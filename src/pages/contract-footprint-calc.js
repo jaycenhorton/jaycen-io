@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -95,6 +95,16 @@ const Calculator = ({ data, location }) => {
         ) : (
           footprint
         )}
+      </div>
+      <div>
+        <h6>
+          You can find more about this calculator's underlying methodology{" "}
+          <Link to="https://github.com/kylemcdonald/ethereum-nft-activity">
+            here
+          </Link>
+          . This calculator is made possible by the outstanding work described
+          there.
+        </h6>
       </div>
     </Layout>
   )
