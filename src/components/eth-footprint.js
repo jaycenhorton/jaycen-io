@@ -1,12 +1,7 @@
 import React from "react"
-import { graphql, Link } from "gatsby"
+import { Link } from "gatsby"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-
-const Calculator = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata.title
-
+export const Calculator = () => {
   const [footprint, setFootprint] = React.useState(null)
   const [address, setAddress] = React.useState(
     "0xbbbd7aebd29360a34cea492e012b9a2119ded306"
@@ -47,11 +42,9 @@ const Calculator = ({ data, location }) => {
     setIsLoading(false)
   }
   return (
-    <Layout location={location} title={siteTitle}>
-      <SEO title="Ethereum Contract Footprint Calculator" />
-      <h1>Ethereum Contract Footprint Calculator</h1>
+    <>
       <form onSubmit={onSubmit}>
-        <label for="address">Contract address:</label>
+        <label for="address">Address:</label>
         <br />
         <input
           type="text"
@@ -106,28 +99,6 @@ const Calculator = ({ data, location }) => {
           footprint
         )}
       </div>
-      <div>
-        <h6>
-          You can find more about this calculator's underlying methodology{" "}
-          <Link to="https://github.com/kylemcdonald/ethereum-nft-activity">
-            here
-          </Link>
-          . This calculator is made possible by the outstanding work described
-          there.
-        </h6>
-      </div>
-    </Layout>
+    </>
   )
 }
-
-export default Calculator
-
-export const pageQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`
