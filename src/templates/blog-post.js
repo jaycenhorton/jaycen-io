@@ -1,10 +1,16 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-
+import rehypeReact from "rehype-react"
+import { Calculator } from "../components/eth-footprint"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
+
+const renderAst = new rehypeReact({
+  createElement: React.createElement,
+  components: { "eth-footprint": Calculator },
+}).Compiler
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark
@@ -37,7 +43,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
             {post.frontmatter.date}
           </p>
         </header>
-        <section dangerouslySetInnerHTML={{ __html: post.html }} />
+        <div>{renderAst(post.htmlAst)}</div>
         <hr
           style={{
             marginBottom: rhythm(1),
@@ -90,6 +96,7 @@ export const pageQuery = graphql`
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
       excerpt(pruneLength: 160)
+      htmlAst
       html
       frontmatter {
         title

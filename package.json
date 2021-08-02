@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "jaycen-io",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "jaycen.io",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Jaycen Horton",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/jaycenhorton/jaycen-io/issues"
   },
   "dependencies": {
     "gatsby": "^2.24.41",
@@ -17,6 +17,7 @@
     "gatsby-plugin-react-helmet": "^3.3.10",
     "gatsby-plugin-sharp": "^2.6.26",
     "gatsby-plugin-typography": "^2.5.10",
+    "gatsby-remark-component": "^1.1.3",
     "gatsby-remark-copy-linked-files": "^2.3.12",
     "gatsby-remark-images": "^3.3.25",
     "gatsby-remark-prismjs": "^3.5.10",
@@ -30,6 +31,7 @@
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
     "react-typography": "^0.16.19",
+    "rehype-react": "^6.2.1",
     "typeface-merriweather": "0.0.72",
     "typeface-montserrat": "0.0.75",
     "typography": "^0.16.19",
@@ -38,7 +40,7 @@
   "devDependencies": {
     "prettier": "2.0.5"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://jaycen.io",
   "keywords": [
     "gatsby"
   ],
@@ -46,7 +48,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git@github.com:jaycenhorton/jaycen-io.git"
   },
   "scripts": {
     "build": "gatsby build",
