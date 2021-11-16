@@ -19,6 +19,7 @@
     "gatsby-plugin-typography": "^2.5.10",
     "gatsby-remark-component": "^1.1.3",
     "gatsby-remark-copy-linked-files": "^2.3.12",
+    "gatsby-remark-gifs": "^1.1.0",
     "gatsby-remark-images": "^3.3.25",
     "gatsby-remark-prismjs": "^3.5.10",
     "gatsby-remark-responsive-iframe": "^2.4.12",
