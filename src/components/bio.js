@@ -21,6 +21,7 @@ const Bio = () => {
           }
           social {
             twitter
+            github
           }
         }
       }
@@ -43,10 +44,14 @@ const Bio = () => {
         style={{
           display: `flex`,
           marginBottom: rhythm(2.5),
+          gap: rhythm(1),
         }}
       >
         <p>
           <a href={`https://twitter.com/${social.twitter}`}>Twitter</a>
+        </p>
+        <p>
+          <a href={`https://github.com/${social.github}`}>GitHub</a>
         </p>
       </div>
     </>
